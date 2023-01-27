@@ -1,6 +1,6 @@
 {
   "name": "drivedownloader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "this is for downloading google drive videos",
   "main": "drive.js",
   "scripts": {
@@ -19,10 +19,10 @@
     "url": "https://github.com/hitesh911/driveDownloader/issues"
   },
   "homepage": "https://github.com/hitesh911/driveDownloader#readme",
-  "exports":{
-    ".":{
-      "import":"./drive.mjs",
-      "require":"./drive.js"
+  "exports": {
+    ".": {
+      "import": "./drive.mjs",
+      "require": "./drive.js"
     }
   },
   "keywords": [
@@ -34,5 +34,8 @@
     "drive",
     "video",
     "downloader"
-  ]
+  ],
+  "dependencies": {
+    "getrefreshtoken": "^1.0.1"
+  }
 }
