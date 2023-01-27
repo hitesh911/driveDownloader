@@ -1,0 +1,11 @@
+{
+  "name": "getrefreshtoken",
+  "version": "1.0.0",
+  "description": "this is to obtaining refreshtoken for downloadDrive module",
+  "main": "getRefreshToken.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JUFFLER",
+  "license": "MIT"
+}
