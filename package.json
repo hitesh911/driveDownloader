@@ -1,8 +1,8 @@
 {
   "name": "drivedownloader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "this is for downloading google drive videos",
-  "main": "drive.mjs",
+  "main": "drive.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,10 +23,6 @@
     ".":{
       "import":"./drive.mjs",
       "require":"./drive.js"
-    },
-    "./getRefreshToken":{
-      "import":"./getRefreshToken/getRefreshToken.mjs",
-      "require":"./getRefreshToken/getRefreshToken.js"
     }
   },
   "keywords": [
