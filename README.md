@@ -23,7 +23,7 @@ _It will download all the dependencies automatically_
 **First you needs to generate token file. To generate, you can use the code below**
 ```
 const generateToken = require("getRefreshToken");
-await getRefreshToken(pathOfCreditialFile, tokenPath(Current is default dir)); // You must have to pass the path of your cred file and token path is optional it will save token in pwd (Present working directory)
+await getRefreshToken(pathOfCreditialFile, TokenSavePath); // You must have to pass the path of your cred file and token path is optional it will save token in pwd (Present working directory but its optional )
 ```
 
 **To download the file you can use this demo code**
