@@ -64,6 +64,6 @@ saveStreamInFile(file-id) // call the function
 ## CREDITS
 
 - [JUFFLER](https://github.com/hitesh911)
-- [5M4CK3R](https://github.com/H4CK3R-5M4CK3R)
+
 
 ## **Thanks for using :-)**
